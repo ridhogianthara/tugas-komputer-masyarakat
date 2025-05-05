@@ -1,10 +1,10 @@
-# Portfolio Page Muhammad Al Ghifari
+# Portfolio Page Muhamad Ridho Gianthara
 
 
-## Pengumpulan Tugas Besar Internet &amp; Teknologi Web 2022, ( Website Portfolio Tanpa Framework )
+## Pengumpulan Tugas Komputer dan Masyarakat, ( Website Portfolio Tanpa Framework )
 
 ---
 
-Tugas ini dibuat guna melengkapi ketentuan kelulusan Mata Kuliah Internet dan Teknologi Web 
-Universitas Pasundan Semester 1 Tahun 2023..
+Tugas ini dibuat guna melengkapi ketentuan kelulusan Mata Kuliah Komputer dan Masyarakat
+
 
