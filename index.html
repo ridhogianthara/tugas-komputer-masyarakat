@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Muhamad Ridho Gianthara</title>
+    <link rel="stylesheet" href="assets/css/styl.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">MRG</a>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">About</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h5>Pengen jadi Web Developer</h5>
+        <h4>Hi! I'm</h4>
+        <h1 data-target-resolver></h1>
+        <p>Mahasiswa Teknik Informatika STMIK MI yang punya cita cita pengen jadi orang yang sukses di bidang IT.</p>
+        <div class="button">
+          <a href="#contact" class="btn"><i class="ri-message-3-fill"></i>Kontak Saya</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="assets/img/kopi.jpeg" class="papgwe" />
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section class="tentang" id="tentang">
+      <div class="tentang-img">
+        <img src="assets/img/ido.jpeg" />
+      </div>
+      <div class="tentang-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Mahasiswa Pengen Sukses</h4>
+        <p>
+          Lahir di Bandung, Pada 18 November 2003. Pemuda yang bernama lengkap Muhamad Ridho Gianthara ini gemar mengulik-ulik berbagai macam hal, dan sangat tertarik di dunia IT merupakan Mahasiswa Semester 6 di prodi Teknik Informatika
+          STMIK Mardira Indonesia, Memiliki Cita-cita ingin menjadi Orang Sukses dibidang Informatika, Bisnis, Mesin, Bahkan Menguasai Dunia.
+        </p>
+        <a href="assets/pdf/CV.pdf" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- Edukasi -->
+    <section class="edukasion">
+      <div class="main-text">
+        <h2><span>Edu</span>cation</h2>
+      </div>
+      <div class="education-container">
+        <div class="education-data">
+          <div class="education-names">
+            <span class="education-name">Teknik Informatika</span>
+            <p class="education-platform">STMIK Mardira Indonesia</p>
+            <p class="education-duration">September 2022 - Present</p>
+          </div>
+        </div>
+      </div>
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <span class="education-name">Teknik Mesin</span>
+            <p class="education-platform">SMKN 1 Katapang</p>
+            <p class="education-duration">July 2018 - July 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Barangkali mau kerja sama atau mau nyulik saya buat proyek hehe.</h4>
+        <p>Apapun yang berhubungan dengan keahlian saya diatas, Saya akan lakukan sepenuh hati.</p>
+        <div class="list">
+          <li><a href="#">082117707729</a></li>
+          <li><a href="#">giantararidho@gmail.com</a></li>
+          <li><a href="#">Follow me on Social Media!</a></li>
+        </div>
+        <div class="contact-icons">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form onsubmit="sendContact(event)" id="formm">
+          <input type="name" placeholder="Your Name" required id="nameInput" />
+          <input type="email" placeholder="Insert Your Email Here" id="emailInput" />
+          <input type="text" placeholder="Your Phone Number (Optional)" id="numberInput" />
+          <textarea cols="35" rows="10" placeholder="Fill your message here" required id="messageInput"></textarea>
+          <button type="submit" class="btn" required>Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="end">
+      <div class="last-text">
+        <p>Copyright © 2025 made with <i class="bx bxs-heart-square"></i> by Muhamad Ridho Gianthara</p>
+      </div>
+      <div class="baleklg">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </section>
+
+    <!-- Aikon Sosmed -->
+    <div class="icons">
+      <a href="https://www.instagram.com/gnthra.r/" target="_blank"><i class="ri-instagram-line"></i></a>
+      <a href="https://github.com/ridhogianthara" target="_blank"><i class="ri-github-line"></i></a>
+      <a href="https://www.facebook.com/Ridho_Gianthara/" target="_blank"><i class="ri-facebook-box-line"></i></a>
+    </div>
+
+    <!-- Scroll Down -->
+    <div class="scroll-down">
+      <a href="#tentang"><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.box'));
+
+      async function sendContact(ev) {
+        ev.preventDefault();
+
+        const senderName = document.getElementById('nameInput').value;
+        const senderEmail = document.getElementById('emailInput').value;
+        const senderNumber = document.getElementById('numberInput').value;
+        const senderMessage = document.getElementById('messageInput').value;
+
+        const webhookBody = {
+          embeds: [
+            {
+              title: 'Pesan Baru niechh',
+              fields: [
+                { name: 'Name', value: senderName },
+                { name: 'Sender', value: senderEmail },
+                { name: 'Number', value: senderNumber },
+                { name: 'Message', value: senderMessage },
+              ],
+            },
+          ],
+        };
+
+        const webhookUrl = 'https://discord.com/api/webhooks/1059493695184973983/MJcN7V_SEX4Jw3nofhtSStMJTFZXyXL0iSl4e3tXddh8nDEuKKUpKbu82dm1uqk3WWlC';
+
+        const response = await fetch(webhookUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(webhookBody),
+        });
+
+        if (response.ok) {
+          alert('Pesan Berhasil Terkirim!');
+        } else {
+          alert('Mff untuk pengiriman email masi ada kendala!');
+        }
+      }
+
+      const form = document.getElementById('formm');
+      form.addEventListener('submit', function handleSubmit(event) {
+        event.preventDefault();
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
