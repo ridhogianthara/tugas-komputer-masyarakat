@@ -180,6 +180,13 @@ section {
   border-radius: 8px;
 }
 
+.tentang-img img {
+  max-width: 530px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
 .tentang-text h2 {
   font-size: 48px;
   line-height: 1;
@@ -318,6 +325,18 @@ section {
   color: var(--text-color);
 }
 
+/* portfolio */
+portfolio {
+  padding-top: 100px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+}
 
 .boxxy {
   height: 450px;
@@ -789,99 +808,5 @@ form textarea {
   .tentang-img img {
     width: 100%;
     height: auto;
-  }
-}
-
-/* Portofolio Section */
-.portofolio {
-  padding: 80px 8%;
-  background-color: #fff;
-}
-
-.portfolio img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px; /* opsional: sudut membulat */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* opsional: bayangan */
-}
-
-
-.portofolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 2rem;
-  justify-content: space-between;
-}
-
-.portofolio-img {
-  flex: 1 1 40%;
-  text-align: center;
-}
-
-.portofolio-img img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
-}
-
-.portofolio-img img:hover {
-  transform: scale(1.05);
-}
-
-.portofolio-text {
-  flex: 1 1 50%;
-}
-
-.portofolio-text h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 20px;
-}
-
-.portofolio-text h2 span {
-  color: #0077ff;
-}
-
-.portofolio-text p {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.6;
-  margin-bottom: 25px;
-}
-
-.portofolio-text .btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background-color: #0077ff;
-  color: #fff;
-  border-radius: 8px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.3s ease;
-}
-
-.portofolio-text .btn:hover {
-  background-color: #005fcc;
-}
-
-/* Responsive */
-@media (max-width: 991px) {
-  .portofolio-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .portofolio-text {
-    padding-top: 20px;
-  }
-
-  .portofolio-text h2 {
-    font-size: 2rem;
   }
 }

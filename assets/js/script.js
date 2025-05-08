@@ -29,7 +29,7 @@ sr.reveal('.skills-content', { delay: 400, origin: 'bottom' });
 
 // proyek
 sr.reveal('.main-text', { delay: 200, origin: 'top' });
-sr.reveal('.portfolio-container', { delay: 300, origin: 'bottom' });
+sr.reveal('.portofolio-container', { delay: 300, origin: 'bottom' });
 
 // kontak jg?
 sr.reveal('.contact-text', { delay: 200, origin: 'left' });
